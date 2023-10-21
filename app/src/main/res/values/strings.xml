@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PROYECTO_APP_FINAL</string>
+    <string name="usuario">Usuario</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="password">Password</string>
+    <string name="guardar">Guardar</string>
+    <string name="validar">Validar</string>
+    <string name="repetir_password">Repetir Password</string>
+    <string name="correo">Correo</string>
+</resources>

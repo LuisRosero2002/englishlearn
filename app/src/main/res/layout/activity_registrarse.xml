@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        tools:srcCompat="@drawable/sign_up" />
+
+    <EditText
+        android:id="@+id/txtValidarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:text="@string/usuario"
+        android:drawableLeft="@drawable/logo"
+        android:drawablePadding="10dp"
+        android:background="@color/purple_200"/>
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:text="@string/correo"
+        android:drawableLeft="@drawable/correo"
+        android:drawablePadding="10dp"
+        android:background="@color/purple_200"/>
+
+    <EditText
+        android:id="@+id/txtPassword1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/bloquear"
+        android:drawablePadding="10dp"
+        android:hint="@string/password"
+        android:background="@color/purple_200"/>
+
+    <EditText
+        android:id="@+id/txtPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/bloquear"
+        android:drawablePadding="10dp"
+        android:hint="@string/repetir_password"
+        android:background="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/btnvalidar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/validar" />
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
